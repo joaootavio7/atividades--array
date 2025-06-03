@@ -2,6 +2,7 @@
     n), sendo que o valor inteiro de n é fornecido pelo
     usuário. utilize laço de repetição for.*/
 
+console.clear();
 let teclado = require(`prompt-sync`)();
 let n: number = parseInt(teclado(`Digite o número a ser calculado: `))
 let fatorial: number = 1;
